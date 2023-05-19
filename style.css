@@ -1,15 +1,20 @@
+/* Общие стили */
 #body1 {
   background-image: url("Без названия (1).jpg");
   background-position: center center;
   background-size: 30%;
   background-position: bottom;
 }
+
 .beg {
   text-align: center;
   font-size: 60px;
   margin-top: 20%;
 }
-.claim_congratulation {
+
+.claim_congratulation,
+#claim_congratulation_from_mom,
+#claim_reward {
   width: 420px;
   height: 60px;
   cursor: pointer;
@@ -21,9 +26,6 @@
   border-width: 3px;
 }
 
-#body2 {
-  background: rgb(65, 138, 64);
-}
 #cong {
   color: plum;
   height: 50px;
@@ -32,57 +34,54 @@
   margin-top: 8%;
   font-size: 30px;
 }
-#claim_congratulation_from_mom {
-  height: 40px;
-  width: 400px;
-  color: rgb(15, 16, 15);
-  margin-left: 38%;
-  margin-top: 26%;
-  cursor: pointer;
-  background-color: aqua;
-  border-radius: 20px;
-  font-size: 22px;
-  border-width: 3px;
-  border-color: rgb(62, 102, 190);
-}
-#body3 {
-  background-color: rgb(138, 187, 198);
-}
 
-#mom img {
-  width: 15%;
-  height: 10%;
-  margin-left: 40%;
-  margin-top: 40px;
-}
 #cong_f_mom {
   width: 400px;
   margin: auto;
   margin-top: 30px;
   font-size: 23px;
 }
-#claim_reward {
-  width: 400px;
-  height: 60px;
-  cursor: pointer;
-  margin-left: 39.2%;
-  margin-top: 60px;
-  font-size: 30px;
-  border-radius: 20px;
-  background-color: pink;
+
+#body2 {
+  background: rgb(65, 138, 64);
 }
+
+#body3 {
+  background-color: rgb(138, 187, 198);
+}
+
 #body4 {
   background-color: rgb(113, 54, 169);
 }
+
 #reward {
   margin-top: 100px;
   margin-left: 29%;
 }
+
 #t1 {
   font-size: 85px;
   color: rgb(27, 26, 26);
 }
+
 #t2 {
   font-size: 50px;
   width: 780px;
+}
+
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 767px) {
+  .claim_congratulation,
+  #claim_congratulation_from_mom,
+  #claim_reward {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  #mom img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 20px;
+  }
 }
