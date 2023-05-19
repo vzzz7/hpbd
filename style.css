@@ -76,12 +76,34 @@
   #claim_reward {
     width: 80%;
     margin-left: 10%;
+    font-size: 14px;
   }
 
   #mom img {
-    width: 50%;
+    width: 80%;
     height: auto;
-    margin-left: 25%;
-    margin-top: 20px;
+    margin: 20px auto;
+  }
+
+  .beg {
+    font-size: 40px;
+    margin-top: 10%;
+  }
+
+  #cong,
+  #cong_f_mom,
+  #reward {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 18px;
+  }
+
+  #t1 {
+    font-size: 40px;
+  }
+
+  #t2 {
+    font-size: 24px;
+    width: 90%;
   }
 }
