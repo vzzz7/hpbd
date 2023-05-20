@@ -37,7 +37,7 @@
   width: 400px;
   color: rgb(15, 16, 15);
   margin-left: 260px;
-  margin-top: 800px;
+  margin-top: 500px;
   cursor: pointer;
   background-color: aqua;
   border-radius: 20px;
@@ -61,9 +61,9 @@
   margin-top: 30px;
   font-size: 23px;
 }
-#claim_reward {
+#claim_congratulation_from_dad {
   width: 400px;
-  height: 60px;
+  height: 80px;
   cursor: pointer;
   margin-left: 29%;
   margin-top: 60px;
@@ -85,5 +85,23 @@
 #t2 {
   font-size: 50px;
   width: 780px;
+}
+#body5 {
+  background-color: darksalmon;
+}
+#divdad {
+  width: 450px;
+  margin: 30%;
+  font-size: 30px;
+}
+#claim_reward {
+  width: 300px;
+  height: 45px;
+  border-radius: 25px;
+  border-color: yellow;
+  background-color: plum;
+  margin-left: 50px;
+  font-size: 25px;
+  cursor: pointer;
 }
 
